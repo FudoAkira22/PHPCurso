@@ -3,6 +3,7 @@ include "./index.php"; /*Este conecta con el index*/
 
         $num1 = intval($_POST['num1']) ?? 0;/*Si no tiene un numero pone 0 por defecto*/
         $num2 = intval($_POST['num2']) ?? 0;
+        
 
         /*Funcion sumar*/
         function sumar($num1 , $num2 ){
