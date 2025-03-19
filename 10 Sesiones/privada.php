@@ -1,10 +1,12 @@
 <?php
-session_start();
+session_start();/*Se vuelve a colocar esto */
 
+/*Si dise false me direccionar a index */
 if($_SESSION['isLogin'] == false){
-    header("location: index.php");
-    exit;
+    header("location: index.php");/*Con esto lo redirige */
+    exit;/*Con este se termina el codigo */
 }
+/*Si es true mostrara esto */
 ?>
 <html lang="es">
 <head>
